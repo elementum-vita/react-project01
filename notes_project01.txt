@@ -47,11 +47,46 @@ https://api.github.com/users/bradtraversy
 --------------------------------------------------
 __________________________________________________________
 
+Components can be : 
+- functions 
+- classes
 
+To start with the  'old fashioned way' we'll use classes
+Then, with the 'new way' we will use functions
 
+A Class component can have States
 
+Hooks allows now us to have States within functions
 
+_______________________________________________________________
+with the 'class' 
 
+We can't return directly from a 'class' so we need a 'method' => a function within a class
+this 'method' needs to be call 'render', which is a called a => life cycle method
+
+'render' is a 'lifecycle' method :: it runs when the componenets are loaded
+there are a few lifecycle methods, but render is require because it renders the output (return)
+So we need to put the 'return' into the 'render'
+
+next, we have to extend the core react component (react component class) 
+which includes all the lifecycle methods
+
+===>>
+
+import React, {Component} from 'react'
+import './App.css';
+
+class App extends Component {
+    render() { 
+    return (
+      <div className="App">
+      <h1>Hello from React</h1>
+      </div>
+    );
+  }
+}
+
+export default App;
 
 
 
