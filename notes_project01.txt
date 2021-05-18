@@ -58,6 +58,9 @@ A Class component can have States
 
 Hooks allows now us to have States within functions
 
+_________________________________________________________
+For clean up see => notes_github-finder.txt
+
 _______________________________________________________________
 with the 'class' 
 
@@ -87,6 +90,40 @@ class App extends Component {
 }
 
 export default App;
+
+
+_________________________________________________________
+JSX and Fragment, see => notes_github-finder.txt
+
+_________________________________________________________
+Component and Props
+
+Navbar.js
+
+
+ES7 React/Redux... snippets extension 
+React Componenets:
+- rce (tab) 
+
+	import React, { Component } from 'react'
+
+	export class Navbar extends Component {
+    	  render() {
+    	    return (
+        	<div>
+                
+            	</div>
+            )
+    	  }
+	}
+
+export default Navbar
+
+
+
+
+
+
 
 
 
