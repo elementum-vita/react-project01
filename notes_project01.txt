@@ -100,10 +100,9 @@ Component and Props
 
 Navbar.js
 
-
 ES7 React/Redux... snippets extension 
 React Componenets:
-- rce (tab) 
+- rce (tab) 	class based component taht export at the bottom ::
 
 	import React, { Component } from 'react'
 
@@ -119,9 +118,14 @@ React Componenets:
 
 export default Navbar
 
+----
+https://cdnjs.com/
+
+Font Awesome Icon
 
 
-
+PROPS : 
+propreties that you can pass into a component from outside
 
 
 
